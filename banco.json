@@ -1,0 +1,54 @@
+{
+    "ativos": [
+        {
+            "id": 1,
+            "hostname": "notebook 1",
+            "responsavel": "Maria",
+            "setor": "Financeiro",
+            "tipo": "notebook",
+            "vulnerabilidades": [
+                {
+                    "descricao": "Sistema operacional desatualizado",
+                    "severidade": "CRITICA",
+                    "status": "ABERTA"
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "hostname": "SRV-banco-de-dados",
+            "responsavel": "Carlos",
+            "setor": "TI",
+            "tipo": "Servidor",
+            "vulnerabilidades": [
+                {
+                    "descricao": "Porta exposta na internet",
+                    "severidade": "CRITICA",
+                    "status": "EM_TRATAMENTO"
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "hostname": "Roteador 1",
+            "responsavel": "João",
+            "setor": "Infraestrutura",
+            "tipo": "Roteador",
+            "vulnerabilidades": [
+                {
+                    "descricao": "Senha padrão de fabrica",
+                    "severidade": "CRITICA",
+                    "status": "ABERTA"
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "hostname": "Portal-clientes",
+            "responsavel": "Lucas",
+            "setor": "Desenvolvimento",
+            "tipo": "Aplicação web",
+            "vulnerabilidades": []
+        }
+    ]
+}
